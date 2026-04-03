@@ -5,7 +5,6 @@
 
 The objective of this task is to apply **Principal Component Analysis (PCA)** on the MNIST dataset to reduce dimensionality while preserving maximum variance, and evaluate its impact on model performance.
 
----
 
 ## 📂 Dataset
 
@@ -13,7 +12,6 @@ The objective of this task is to apply **Principal Component Analysis (PCA)** on
 * **Total Features:** 784 (28×28 images flattened)
 * **Classes:** 10 (digits 0–9)
 
----
 
 ## 🛠️ Tools & Technologies
 
@@ -23,7 +21,6 @@ The objective of this task is to apply **Principal Component Analysis (PCA)** on
 * Pandas
 * Matplotlib
 
----
 
 ## 🚀 Steps Performed
 
@@ -43,7 +40,6 @@ The objective of this task is to apply **Principal Component Analysis (PCA)** on
 9. Compared accuracy of all models
 10. Visualized data using **2D PCA scatter plot**
 
----
 
 ## Explained Variance Analysis
 
@@ -51,7 +47,6 @@ The objective of this task is to apply **Principal Component Analysis (PCA)** on
 * Around **30–50 components retain ~90–95% variance**
 * Helps in reducing dimensionality significantly without major information loss
 
----
 
 ## 📉 Accuracy Comparison
 
@@ -63,7 +58,6 @@ The objective of this task is to apply **Principal Component Analysis (PCA)** on
 | PCA (30 components)             | ~93%     |
 | PCA (50 components)             | ~95%     |
 
----
 
 ## 📁 Reduced Dataset
 
@@ -82,7 +76,6 @@ Each file contains:
 * PCA-transformed features
 * Corresponding labels
 
----
 
 ## 📌 Key Insights
 
@@ -91,14 +84,12 @@ Each file contains:
 * Optimal balance found around **30–50 components**
 * Too much reduction leads to information loss
 
----
 
 ## 📊 Visualization
 
 * 2D PCA scatter plot shows partial separation of digit classes
 * Helps in understanding data distribution in reduced space
 
----
 
 ## ⚖️ Trade-off
 
@@ -107,5 +98,3 @@ Each file contains:
 | Faster computation | Higher accuracy           |
 | Less memory usage  | More information retained |
 | Lower accuracy     | Better predictive performance |
-
----
